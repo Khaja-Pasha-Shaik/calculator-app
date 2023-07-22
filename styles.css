@@ -79,3 +79,12 @@ input[type="number"]{
 input[type="number"]:focus,input[type="number"]:hover{
     background-color: #ddd;
 }
+
+@media (max-with: 767px) {
+    body{
+        font-size: 14px;
+    }
+    .container{
+        width: 100%;
+    }
+}
